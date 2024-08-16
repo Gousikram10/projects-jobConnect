@@ -1,0 +1,7 @@
+.addproduct-thumbnail-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 25px 40px;
+}

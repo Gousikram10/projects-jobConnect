@@ -1,0 +1,27 @@
+.login-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('D:\College Project\jobproject\src\Asserts\login.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    
+}
+.login-box{
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    padding: 100px;
+    height: 320px;
+    border-radius: 20px;
+    width: 350px;
+}
+.login-icon{
+    text-align: center;
+}

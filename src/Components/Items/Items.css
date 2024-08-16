@@ -1,0 +1,12 @@
+.items img{
+    height: 260px;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+.items img:hover{
+    height: 310px;
+    padding: 0px 10px;
+    padding-top: 10px;
+    transition: .5s;
+    cursor: pointer;
+}

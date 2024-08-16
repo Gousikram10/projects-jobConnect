@@ -1,0 +1,67 @@
+.jobbox{
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px ;
+    /* border: 2px solid black; */
+
+    border-radius: 15px;
+    width: 900px;
+    margin-bottom:50px;
+    
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .jobbox:hover{
+    background: rgba(175, 157, 157, 0.244);
+} */
+.jobbox-description{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobbox-img{
+    display: flex;
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+.jobbox-description button{
+    /* padding-right: 100px; */
+    margin-right: 70px;
+    height: 40px;
+width: 180px;
+font-size: 17px;
+font-weight: 600;
+background: rgba(255, 217, 0, 0.856);
+border: none;
+padding: 10px;
+border-radius: 3px;
+cursor: pointer;
+}
+.jobbox-company{
+    margin-top: -25px;
+    padding-left: 10px;
+}
+.jobbox-img img{
+    height: 155px;
+    width: 180px;
+    padding-right: 12px;
+}
+.jobbox-jobfoot{
+    display: flex;
+    text-align: center;
+    /* justify-content:end; */
+    gap: 130px;
+    border: 1.5px solid;
+    padding:16px;
+    border-radius: 14px;
+    /* row-gap: 150px; */
+    font-size: 19px;
+    font-weight: 500;
+}

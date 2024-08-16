@@ -1,0 +1,110 @@
+/* Chatai.css */
+.body1 {
+    font-family: 'Arial', sans-serif;
+    /* background-image: url('./chatai2.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background: linear-gradient(to right, #2196F3, #21CBF3);
+    
+    /* background: linear-gradient( #2269d4e2, #8cdc73); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .chat1-container {
+    width: 100%;
+    /* height: 800px; */
+    max-width: 800px;
+    margin: 100px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .chat-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .chat-input {
+    width: 90%;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    height: 250px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .chat-input:focus {
+    border-color: #ff7e5f;
+  }
+  
+  .chat-button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .chat-button:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+  }
+  
+  .chat-response {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 5px solid #ff7e5f;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+    .chat-container {
+      padding: 20px;
+    }
+  
+    .chat-title {
+      font-size: 28px;
+    }
+  
+    .chat-input {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .chat-button {
+      padding: 12px;
+      font-size: 16px;
+    }
+  
+    .chat-response {
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.navbar{
+    display:flex;
+    height: 115px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 26px;
+    margin-left: -7px;
+    font-weight: 600;
+    /* background:rgba(245, 245, 245, 0.95) fixed; */
+}
+.navbar {
+    background-color: #fcf76b; /* Bootstrap danger red */
+    color:black;
+    border-bottom: .5px solid;
+  }
+
+.nav-title{
+    padding-top: 8px;
+    font-size: 34px;
+}
+.nav-img{
+    display: flex;
+    flex-direction: row;
+}
+.tit{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px
+}
+.nav-img img{
+    padding-top: 1px;
+    padding-right: 12px;
+    margin: 10px;
+    height: 90px;  
+    width: 100px;
+}
+.nav-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  padding-bottom: 7px;
+    cursor: pointer;
+    gap: 30px;
+    padding: auto;
+    padding-right: 20px;
+}
+.nav-end div:hover{
+    /* text-decoration-line:underline; */
+    /* text-decoration-color:#FF4141; */
+    font-weight: bold;
+   color:  rgb(39, 15, 218); 
+    
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    padding-top: 2px;
+    margin: 2px;
+    height: 2px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:60px ;
+    font-size: 29px;
+    padding-right: 100px;
+    font-weight: 500px;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    cursor: pointer;
+}
+

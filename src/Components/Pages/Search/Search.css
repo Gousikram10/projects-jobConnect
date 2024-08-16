@@ -1,0 +1,21 @@
+.box input{
+    /* background-color: red; */
+    height: 35px;
+    /* margin: 10px; */
+    width: 1000px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.search{
+    margin: 0px;
+    background-color:rgba(245, 245, 245, 0.505);
+}
+.city{
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr; 
+ padding-bottom: 100px;
+ 
+ /* background-color: red; */
+}
